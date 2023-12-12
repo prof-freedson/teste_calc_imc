@@ -1,0 +1,8 @@
+# Ignorando uma pasta
+node_modules/
+
+# Ignorando um arquivo
+# Necessário informar o nome
+# do arquivo e sua extensão
+package.json
+package-lock.json
