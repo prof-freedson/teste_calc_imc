@@ -1,0 +1,26 @@
+TESTES UNITÁRIOS EM JAVASCRIPT
+
+1) Iniciar o projeto com o framework
+Node.js
+- comando no Terminal: npm init -y
+
+2) Instalar o pacote de testes Jest
+- comando no Terminal: npm install --save-dev jest
+
+3) Trocar o script de testes:
+- Arquivo 'package.json'
+    "scripts": {
+        "test": "jest"
+                },
+
+4) Criar o arquivo que será testado
+- Arquivo calculadora.js
+
+5) Criar o arquivo de testes
+- Arquivo calculadora.test.js
+
+6) Executar o arquivo de testes
+- comandos no Terminal(somente um dos comandos):
+    - npm t
+    - npm test
+    - npm run test
